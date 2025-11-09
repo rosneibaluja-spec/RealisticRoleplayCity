@@ -7,7 +7,7 @@ local LevelStore = DataStoreService:GetDataStore("CriminalLevels")
 
 local CriminalLevelSystem = {}
 CriminalLevelSystem.Levels = {
-	{xp = 0, reward = "Nada"},
+	{xp = 0, reward = "$500"},
 	{xp = 100, reward = "Pistola"},
 	{xp = 250, reward = "Escopeta"},
 	{xp = 500, reward = "Rifle"},
