@@ -10,3 +10,6 @@ function Plugin:Init()
 end
 
 return Plugin
+
+-- Cargar sistema de niveles de Criminales
+require(script.Parent.Systems.LevelSystem.CriminalLevelSystem)
